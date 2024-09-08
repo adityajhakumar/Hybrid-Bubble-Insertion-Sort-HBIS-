@@ -1,5 +1,6 @@
 
 # Hybrid Bubble-Insertion Sort (HBIS)
+https://github.com/adityajhakumar/Hybrid-Bubble-Insertion-Sort-HBIS-/blob/b30666f3664311fe17f59d2b4c10bddac5c8b33e/hbis.jpg
 
 ## Overview
 
