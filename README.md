@@ -1,6 +1,8 @@
 
+
 # Hybrid Bubble-Insertion Sort (HBIS)
-https://github.com/adityajhakumar/Hybrid-Bubble-Insertion-Sort-HBIS-/blob/b30666f3664311fe17f59d2b4c10bddac5c8b33e/hbis.jpg
+
+![HBIS Logo](hbis.jpg)
 
 ## Overview
 
@@ -33,19 +35,19 @@ Sorting is a fundamental operation in computer science with numerous application
 
 ### Bubble Sort
 
-Bubble sort is one of the simplest sorting algorithms. It repeatedly compares adjacent elements in the array and swaps them if they are in the wrong order. This process is repeated until the array is sorted. Although bubble sort is easy to understand and implement, it has a time complexity of O(n^2) in the worst and average cases, making it inefficient for large datasets.
+Bubble sort is one of the simplest sorting algorithms. It repeatedly compares adjacent elements in the array and swaps them if they are in the wrong order. This process is repeated until the array is sorted. Although bubble sort is easy to understand and implement, it has a time complexity of O(n²) in the worst and average cases, making it inefficient for large datasets.
 
 **Key Characteristics:**
-- **Time Complexity:** O(n^2) in the worst and average cases.
+- **Time Complexity:** O(n²) in the worst and average cases.
 - **Space Complexity:** O(1) - It sorts the array in place.
 - **Stability:** Stable - It maintains the relative order of equal elements.
 
 ### Insertion Sort
 
-Insertion sort builds the final sorted array one item at a time. It takes each element from the unsorted portion and inserts it into its correct position within the sorted portion. While insertion sort also has a time complexity of O(n^2) in the worst case, it performs well on small or partially sorted datasets.
+Insertion sort builds the final sorted array one item at a time. It takes each element from the unsorted portion and inserts it into its correct position within the sorted portion. While insertion sort also has a time complexity of O(n²) in the worst case, it performs well on small or partially sorted datasets.
 
 **Key Characteristics:**
-- **Time Complexity:** O(n^2) in the worst case; O(n) in the best case (when the array is already sorted).
+- **Time Complexity:** O(n²) in the worst case; O(n) in the best case (when the array is already sorted).
 - **Space Complexity:** O(1) - It sorts the array in place.
 - **Stability:** Stable - It maintains the relative order of equal elements.
 
@@ -176,7 +178,7 @@ To run the compiled program:
 ### Comparison with Traditional Sorting Algorithms
 
 **Bubble Sort vs. HBIS:**
-- **Efficiency:** Bubble sort is less efficient for larger datasets due to its O(n^2) complexity. HBIS improves efficiency by switching to insertion sort for smaller datasets.
+- **Efficiency:** Bubble sort is less efficient for larger datasets due to its O(n²) complexity. HBIS improves efficiency by switching to insertion sort for smaller datasets.
 - **Adaptability:** HBIS dynamically adapts to the dataset size, providing better performance in various scenarios compared to a static bubble sort.
 
 **Insertion Sort vs. HBIS:**
